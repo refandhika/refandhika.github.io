@@ -1,6 +1,6 @@
 {
   "name": "sedikitacakv2",
-  "homepage": "https://refandhika.github.io/sedikitacakv2",
+  "homepage": "https:///sedikitacak.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
