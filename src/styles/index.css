@@ -1,0 +1,60 @@
+* {
+  color: #222;
+}
+
+*:focus {
+  outline: 0;
+}
+
+a { 
+  text-decoration: none;
+}
+
+html {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  min-height: 250px;
+  position: relative;
+}
+
+section.invert {
+  background-color: #333;
+}
+
+section.invert * { 
+  color: #fff;
+}
+
+button {
+  border: 2px solid #222222;
+  color: #222222 !important;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-size: 12px;
+  line-height: 1.5;  border-radius: 5px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.invert button {
+  background-color: #333333;
+  border: 2px solid #ffffff;
+  color: #ffffff !important;
+}
+
+button:hover {
+  background-color: #888888;
+}
+
+
