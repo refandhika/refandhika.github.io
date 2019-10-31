@@ -5,7 +5,7 @@ import Main from './Main.js';
 import Copyright from './Copyright.js';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
 } from 'react-router-dom';
 
 function App() {
